@@ -6,6 +6,7 @@ import {LocationService} from "../location.service";
   templateUrl: './zipcode-entry.component.html'
 })
 export class ZipcodeEntryComponent {
+  buttonName: string = 'Add location'
 
   constructor(private service : LocationService) { }
 
