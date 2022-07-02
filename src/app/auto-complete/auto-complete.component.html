@@ -1,0 +1,21 @@
+<div class="auto-complete">
+  <input
+    type="text"
+    placeholder="Enter country name"
+    class="form-control"
+    [(ngModel)]="value"
+    (focus)="onFocus()"
+  />
+
+  <ng-container *ngIf="isShow">
+    <div class="menu-drop-down">
+      <ng-container *ngFor="let item of listItem">
+        <div
+          class="menu-item"
+          (click)="onSelectedItem(item)"
+          [innerHTML]="item.name | highlight: value"
+        ></div>
+      </ng-container>
+    </div>
+  </ng-container>
+</div>

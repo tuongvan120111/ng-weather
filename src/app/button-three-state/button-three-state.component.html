@@ -1,0 +1,36 @@
+<button
+  class="btn"
+  [ngClass]="{
+    'btn-primary': state === ButtonState.Init || state === ButtonState.Loading,
+    'btn-success': state === ButtonState.Done
+  }"
+  [disabled]="state === ButtonState.Loading"
+  (click)="onClick()"
+>
+  <div [ngSwitch]="state">
+    <div *ngSwitchCase="ButtonState.Loading">
+      <ng-container *ngIf="isStringLabel(loadingLabel); else load">
+        {{ loadingLabel }}
+      </ng-container>
+      <ng-template #load>
+        <ng-template [ngTemplateOutlet]="loadingLabel"></ng-template>
+      </ng-template>
+    </div>
+    <div *ngSwitchCase="ButtonState.Done">
+      <ng-container *ngIf="isStringLabel(doneLabel); else done">
+        {{ doneLabel }}
+      </ng-container>
+      <ng-template #done>
+        <ng-template [ngTemplateOutlet]="doneLabel"></ng-template>
+      </ng-template>
+    </div>
+    <div *ngSwitchDefault>
+      <ng-container *ngIf="isStringLabel(initLabel); else ildeTpl">
+        {{ initLabel }}
+      </ng-container>
+      <ng-template #ildeTpl>
+        <ng-template [ngTemplateOutlet]="initLabel"></ng-template>
+      </ng-template>
+    </div>
+  </div>
+</button>
