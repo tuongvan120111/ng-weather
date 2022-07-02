@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1656760536533,
+  "timestamp": 1656764637112,
   "index": "https://tuongvan120111.github.io/ng-weather/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "https://tuongvan120111.github.io/ng-weather/favicon.ico",
         "https://tuongvan120111.github.io/ng-weather/index.html",
-        "https://tuongvan120111.github.io/ng-weather/main.29dd5864ba595b49051b.js",
+        "https://tuongvan120111.github.io/ng-weather/main.9ec5981730fabc096513.js",
         "https://tuongvan120111.github.io/ng-weather/polyfills-es5.4a98135ec0f9b386cb0c.js",
         "https://tuongvan120111.github.io/ng-weather/polyfills.f33759389c2a3f6325b7.js",
         "https://tuongvan120111.github.io/ng-weather/runtime.689ba4fd6cadb82c1ac2.js",
@@ -58,8 +58,8 @@
     "https://tuongvan120111.github.io/ng-weather/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://tuongvan120111.github.io/ng-weather/assets/weather.json": "66917a0e0b291aa6498489fc9820dfaa3529ceb9",
     "https://tuongvan120111.github.io/ng-weather/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://tuongvan120111.github.io/ng-weather/index.html": "24dd6c660ed6e2deec97ba5ebdc58392de7dafc8",
-    "https://tuongvan120111.github.io/ng-weather/main.29dd5864ba595b49051b.js": "c26ab5726ee9ca0dcbe58732450750e0b6ef6e71",
+    "https://tuongvan120111.github.io/ng-weather/index.html": "9ce337eeff2cd8fbe3158b99a1125887221f5908",
+    "https://tuongvan120111.github.io/ng-weather/main.9ec5981730fabc096513.js": "632fcc03f90b1be29f8fd8899747804f73bef6d1",
     "https://tuongvan120111.github.io/ng-weather/polyfills-es5.4a98135ec0f9b386cb0c.js": "3f99e728e4d794517bc3eb251b694d1d871ff2b5",
     "https://tuongvan120111.github.io/ng-weather/polyfills.f33759389c2a3f6325b7.js": "7f9ce26c29396db7bb25de5bc32b63364719d856",
     "https://tuongvan120111.github.io/ng-weather/runtime.689ba4fd6cadb82c1ac2.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
